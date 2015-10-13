@@ -4,7 +4,7 @@
   "repository":  "https://github.com/ca2so/ca-heroku.git",
   "logo": "http://www.logicline.de/wordpress/wp-content/uploads/2015/01/logicline_logo_400.png",
   "keywords": ["angularjs", "java", "heroku", "spring"],
-  "addons": ["heroku-postgresql:hobby-dev"],
+  "addons": ["heroku-postgresql:hobby-dev", "herokuconnect:demo"],
    "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
